@@ -6,18 +6,28 @@
 <body>
 	<h1>Register</h1>
 	<form action="https://wikipedia.org" method="get">
-		<label for="first">First Name:</label>
-		<input type="text" name="first" id="first" placeholder="John" required="true">
-		<label for="last">Last Name:</label>
-		<input type="text" name="last" id="last" placeholder="Smith" required="true">
+		<label>
+			First Name:
+			<input type="text" name="first" required="true" placeholder="John">
+		</label>
+		<label>
+			Last Name:
+			<input type="text" name="last" required="true" placeholder="Smith">
+		</label>
 
 		<div>
-			<label for="male">Male</label>
-			<input type="radio" name="gender" id="male" value="male">
-			<label for="female">Female</label>
-			<input type="radio" name="gender" id="female" value="female">
-			<label for="other">Other</label>
-			<input type="radio" name="gender" id="other" value="other">
+			<label>
+				Male
+				<input type="radio" name="gender" value="m">
+			</label>
+			<label>
+				Female
+				<input type="radio" name="gender" value="f">
+			</label>
+			<label>
+				Other
+				<input type="radio" name="gender" value="o">
+			</label>
 		</div>
 		<div>
 			<label>
