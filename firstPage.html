@@ -140,6 +140,8 @@
 		<button>Submit</button>
 	</form>
 
+	<!-- Labels/id -->
+
 	<form action="https://wikipedia.org" method="get">
 		<!-- for/id must match -->
 		<label for="email">Email:</label>
@@ -160,6 +162,47 @@
 		<label for="password">Password:</label>
 		<input type="password" id="password" required>
 		<button>Slam it!</button>
+	</form>
+
+	<!-- Dropdowns/Radio buttons -->
+	<!-- radio button -->
+	<!-- select tag -->
+	<!-- textarea tag -->
+
+	<!-- <input> name, value = key,value -->
+	<!-- for, id are used to connect labels to its respective input for backend -->
+
+	<h1>Do you prefer dogs or cats?</h1>
+	<form action="https://wikipedia.org">
+		<!-- same name for each label/input = only one choice, not both -->
+
+		<label for="dogs">Dogs:</label>
+		<input type="radio" name="petChoice" id="dogs" value="DOGS">
+
+		<label for="cats">Cats:</label>
+		<input type="radio" name="petChoice" id="cats" value="CATS">
+		<button>Go!</button>
+		<!-- when submitting, the name = value; petChoice = value(DOGS or CATS) -->
+
+
+	<!-- Dropdown menus -->
+	<h1>whats your current mood?</h1>
+	<select name="mood">
+		<option value="happy">:)</option>
+		<option value="neutral">:|</option>
+		<option value="sad">:(</option>
+		<!-- name = option; if an option is chosen, name = value for that option -->
+		
+	</select>
+	<button>Go!</button>
+
+	<!-- textarea tag -->
+	<!-- used for submitting custom/large text paragraphs -->
+
+	<h1>Describe your biography</h1>
+	<textarea name="bio" rows="10" cols="40"></textarea>
+	<button>lets go!</button>
+
 	</form>
 
 
